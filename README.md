@@ -11,6 +11,7 @@ Read this list on lyszt.net in your language.
 ## Contents
 
 - [Learning](#learning)
+  - [Specifications](#specifications)
   - [Courses](#courses)
   - [Tutorials](#tutorials)
   - [Books](#books)
@@ -19,10 +20,13 @@ Read this list on lyszt.net in your language.
   - [Videos](#videos)
   - [Papers](#papers)
 - [Tools](#tools)
+  - [Toolchains](#toolchains)
   - [Simulators and emulators](#simulators-and-emulators)
   - [Design environments](#design-environments)
   - [Hardware description languages](#hardware-description-languages)
   - [Verification](#verification)
+- [Software](#software)
+  - [Operating systems](#operating-systems)
 - [Implementations](#implementations)
   - [Cores](#cores)
   - [SoCs](#socs)
@@ -30,14 +34,31 @@ Read this list on lyszt.net in your language.
   - [Silicon](#silicon)
 - [Hardware](#hardware)
   - [Boards](#boards)
+  - [Microcontrollers](#microcontrollers)
+- [By country](#by-country)
+  - [Brazil](#brazil)
+  - [China](#china)
+  - [Europe](#europe)
+  - [India](#india)
+  - [Japan](#japan)
+  - [Taiwan](#taiwan)
+  - [United States](#united-states)
 - [Community](#community)
   - [Organizations](#organizations)
+  - [Events](#events)
   - [Forums](#forums)
   - [Google Groups](#google-groups)
   - [Reddit](#reddit)
   - [Telegram](#telegram)
 
 ## Learning
+
+### Specifications
+
+- [Ratified specifications](https://riscv.org/specifications/ratified/) - Official index of ratified RISC-V ISA, profile and platform specifications from RISC-V International.
+- [RISC-V ISA manual](https://github.com/riscv/riscv-isa-manual) - Source of the unprivileged and privileged ISA specifications.
+- [RISC-V assembly programmer's manual](https://github.com/riscv-non-isa/riscv-asm-manual) - Assembler directives, pseudo-instructions and relocation syntax.
+- [RISC-V ELF psABI](https://github.com/riscv-non-isa/riscv-elf-psabi-doc) - Calling convention, register usage and ELF format used by RISC-V compilers.
 
 ### Courses
 
@@ -144,9 +165,17 @@ Read this list on lyszt.net in your language.
 
 ## Tools
 
+### Toolchains
+
+- [riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) - GCC, binutils and C library build scripts for bare-metal and Linux RISC-V targets.
+- [Compiler Explorer](https://godbolt.org/) - Online compiler that shows the RISC-V assembly GCC and Clang generate from C, C++, Rust and other languages.
+
 ### Simulators and emulators
 
 - [Litessera Lux](https://lyszt.net/en/toolkit/litessera-lux) - Browser-based RV32IM assembler and simulator with lessons and an instruction reference.
+- [Spike](https://github.com/riscv-software-src/riscv-isa-sim) - Official RISC-V ISA simulator used as the golden reference model.
+- [Venus](https://github.com/kvakil/venus) - RV32IM simulator and editor that runs in the browser, used in UC Berkeley's CS61C course.
+- [CPUlator](https://cpulator.01xz.net/?sys=rv32) - Browser-based RV32 simulator and debugger with memory and register views.
 - [QEMU](https://github.com/qemu/qemu) - The leading open-source machine emulator and virtualizer; supports both RV32 and RV64 system and user-mode emulation.
 - [Verilator](https://github.com/verilator/verilator) - Fastest Verilog/SystemVerilog simulator.
 - [Ripes](https://github.com/mortbopet/Ripes) - Visual computer architecture simulator and assembly code editor.
@@ -191,6 +220,8 @@ Read this list on lyszt.net in your language.
 
 ### Verification
 
+- [Sail RISC-V model](https://github.com/riscv/sail-riscv) - Formal specification of the RISC-V ISA written in Sail, adopted as the official golden model.
+- [riscv-arch-test](https://github.com/riscv-non-isa/riscv-arch-test) - Architectural test suite that checks whether an implementation follows the RISC-V specification.
 - [riscv-dv](https://github.com/chipsalliance/riscv-dv) - SystemVerilog and UVM random instruction generator for RISC-V processor verification.
 - [RISC-V Formal](https://github.com/SymbioticEDA/riscv-formal) - Open-source formal verification framework for RISC-V processors.
 - [RISC-V Torture](https://github.com/ucb-bar/riscv-torture) - Random torture test generator for RISC-V processors.
@@ -201,6 +232,15 @@ Read this list on lyszt.net in your language.
 - [UVM](https://github.com/SymbiFlow/uvm) - Universal Verification Methodology (UVM) library for open-source EDA flows.
 - [BOOM Attacks](https://github.com/riscv-boom/boom-attacks) - BOOM Speculative Attacks. *(inactive since 2019)*
 - [Axe](https://github.com/CTSRD-CHERI/axe) - Automatic black box testing. *(inactive since 2016)*
+
+## Software
+
+### Operating systems
+
+- [Fedora on RISC-V](https://fedoraproject.org/wiki/Architectures/RISC-V) - Fedora port status, images and installation guides for RISC-V boards.
+- [Ubuntu for RISC-V](https://ubuntu.com/download/risc-v) - Official Ubuntu images for RISC-V boards and QEMU.
+- [FreeBSD on RISC-V](https://wiki.freebsd.org/riscv) - FreeBSD port status and instructions for RISC-V hardware and emulators.
+- [Zephyr RISC-V boards](https://docs.zephyrproject.org/latest/boards/index.html#arch=riscv) - RISC-V boards supported by the Zephyr real-time operating system.
 
 ## Implementations
 
@@ -336,12 +376,67 @@ Read this list on lyszt.net in your language.
 
 - [Awesome RISCV Allwinner D1](https://github.com/DongshanPI/Awesome_RISCV-AllwinnerD1) - Hardware designs, SDK documentation, flashing tools and system images for Allwinner D1 boards, in Chinese.
 - [HiFive1 Rev B](https://www.sifive.com/boards/hifive1-rev-b) - SiFive's Arduino-compatible RISC-V microcontroller board; an accessible entry point for bare-metal embedded programming.
+- [StarFive VisionFive 2](https://www.starfivetech.com/en) - Quad-core 64-bit RISC-V single-board computer that runs Debian, Ubuntu and Fedora.
+- [BeagleV-Ahead](https://www.beagleboard.org/boards/beaglev-ahead) - BeagleBoard single-board computer based on the quad-core T-Head C910.
+- [Pine64 Ox64](https://pine64.org/devices/ox64/) - Low-cost RISC-V board based on the Bouffalo BL808 chip.
+- [Sipeed](https://wiki.sipeed.com/) - Documentation for Sipeed's Lichee and Maix RISC-V boards and modules.
 - [Milk-V Duo](https://milkv.io/duo) - Extremely low-cost ($5–$9) ultra-compact embedded Linux board based on a RISC-V + ARM dual-core SoC; great for IoT learning.
+
+### Microcontrollers
+
+- [Raspberry Pi Pico 2](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) - Board based on the RP2350, which can boot into two Hazard3 RISC-V cores in place of its Arm cores.
+- [ESP32-C3](https://www.espressif.com/en/products/socs/esp32-c3) - Espressif RISC-V microcontroller with Wi-Fi and Bluetooth Low Energy.
+- [CH32V003](https://www.wch-ic.com/products/CH32V003.html) - WCH 32-bit RISC-V microcontroller sold for a few cents per chip.
+
+## By country
+
+### Brazil
+
+- [Chips and processors in Brazil](https://lyszt.net/en/academia/resources/riscv/learn/brazil) - Lesson on the history of Brazilian chip manufacturing, the CEITEC factory and Brazilian RISC-V processors, with sources.
+- [BlueMacaw](https://sites.google.com/inf.ufsm.br/bluemacaw) - Brazilian 32-bit RISC-V microcontroller with Bluetooth Low Energy, led by UFSM with researchers from UFMG.
+- [NoX](https://github.com/aignacio/nox) - Compact open source RISC-V processor for multi-processor systems-on-chip, from Brazilian researchers.
+- [CI Inovador](https://ciinovador.softex.br/) - Brazilian national program that trains chip designers through residencies in microelectronics.
+- [Soccer, chips, RISC-V and Brazil](https://riscv.org/blog/soccer-chips-risc-v-and-brazil/) - RISC-V International article on the RISC-V community in Brazil.
+
+### China
+
+- [Beijing Institute of Open Source Chip](https://www.bosc.ac.cn/) - Research institute that develops the XiangShan high-performance open source processor.
+- [PLCT Lab](https://github.com/plctlab) - ISCAS lab contributing RISC-V support to compilers, emulators and Linux distributions.
+- [RuyiSDK](https://github.com/ruyisdk) - Development environment and package manager for RISC-V hardware, from ISCAS.
+- [XuanTie](https://github.com/XUANTIE-RV) - Open source C906 and C910 RISC-V cores from Alibaba T-Head.
+
+### Europe
+
+- [European Processor Initiative](https://www.european-processor-initiative.eu/) - EU project developing European processors, including RISC-V accelerators for high-performance computing.
+- [TRISTAN](https://tristan-project.eu/) - EU project building a European ecosystem of RISC-V processor IP and design tools.
+- [Codasip](https://codasip.com/) - Czech company offering customizable RISC-V processor IP and design tools.
+- [Semidynamics](https://semidynamics.com/) - Barcelona company designing RISC-V cores with vector units for AI workloads.
+
+### India
+
+- [SHAKTI](https://shakti.org.in/) - Family of open source RISC-V processors from IIT Madras.
+- [VEGA processors](https://vegaprocessors.in/) - Family of RISC-V processors designed by C-DAC for Indian industry.
+
+### Japan
+
+- [RISC-V Association Japan](https://riscv.or.jp/) - Japanese RISC-V association with news and events in Japanese.
+
+### Taiwan
+
+- [Andes Technology](https://www.andestech.com/) - Taiwanese company licensing RISC-V processor cores.
+
+### United States
+
+- [Berkeley Architecture Research](https://bar.eecs.berkeley.edu/) - UC Berkeley group where RISC-V was created, also home of Rocket Chip and BOOM.
 
 ## Community
 
 ### Organizations
 
+- [RISC-V International](https://riscv.org/) - Non-profit that owns and ratifies the RISC-V specifications.
+- [RISC-V on GitHub](https://github.com/riscv) - Official repositories for the specifications, the Sail model and related tools.
+- [RISE Project](https://riseproject.dev/) - Industry project funding RISC-V support in compilers, runtimes, distributions and kernels.
+- [FOSSi Foundation](https://www.fossi-foundation.org/) - Non-profit supporting open source silicon through events, news and project hosting.
 - [bluespec](https://github.com/bluespec) - Maker of the Bluespec hardware description language and the Piccolo, Flute and Toooba cores.
 - [chipsalliance](https://github.com/chipsalliance/) - Linux Foundation project developing open source hardware and design tools, including Rocket Chip.
 - [lowRISC](https://github.com/lowRISC) - Non-profit in Cambridge maintaining the Ibex core and the OpenTitan silicon root of trust.
@@ -350,6 +445,12 @@ Read this list on lyszt.net in your language.
 - [sifive](https://github.com/sifive) - Company founded by the creators of the RISC-V ISA, publishing processor IP, SDKs and tooling.
 - [SpinalHDL](https://github.com/SpinalHDL) - Scala-based hardware description language and home of the VexRiscv and NaxRiscv cores.
 - [YosysHQ](https://github.com/YosysHQ/) - Maintainers of the Yosys synthesis suite, nextpnr and riscv-formal.
+
+### Events
+
+- [RISC-V events calendar](https://riscv.org/community/calendar/) - RISC-V International calendar of summits, meetups and webinars.
+- [RISC-V Summit Europe](https://riscv-europe.org/) - Yearly European RISC-V conference.
+- [RISC-V Summit China](https://riscv-summit-china.com/) - Yearly Chinese RISC-V conference.
 
 ### Forums
 

@@ -2,7 +2,11 @@
 
 A curated list of RISC-V resources for students, educators and hardware developers.
 
-A searchable version of this list, translated into several languages, is available at [lyszt.net](https://lyszt.net/en/portfolio/awesome-riscv-core).
+## Languages
+
+Read this list on lyszt.net in your language.
+
+[English](https://lyszt.net/en/portfolio/awesome-riscv-core) | [Français](https://lyszt.net/fr/portfolio/awesome-riscv-core) | [Português](https://lyszt.net/br/portfolio/awesome-riscv-core) | [Deutsch](https://lyszt.net/de/portfolio/awesome-riscv-core) | [Italiano](https://lyszt.net/it/portfolio/awesome-riscv-core) | [Español](https://lyszt.net/es/portfolio/awesome-riscv-core) | [Polski](https://lyszt.net/pl/portfolio/awesome-riscv-core) | [Русский](https://lyszt.net/ru/portfolio/awesome-riscv-core) | [Українська](https://lyszt.net/uk/portfolio/awesome-riscv-core) | [日本語](https://lyszt.net/ja/portfolio/awesome-riscv-core) | [한국어](https://lyszt.net/ko/portfolio/awesome-riscv-core) | [简体中文](https://lyszt.net/zh/portfolio/awesome-riscv-core) | [العربية](https://lyszt.net/ar/portfolio/awesome-riscv-core) | [हिन्दी](https://lyszt.net/hi/portfolio/awesome-riscv-core)
 
 ## Contents
 

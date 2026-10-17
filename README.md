@@ -404,7 +404,7 @@ Read this list on lyszt.net in your language.
 
 ### Colombia
 
-- [mRISCV](https://github.com/onchipuis/mriscv) - 32-bit RISC-V microcontroller from the Onchip group at Universidad Industrial de Santander, designed as the first Colombian system-on-chip. *(inactive since 2018)*
+- [Onchip UIS](https://github.com/onchipuis) - Research group at Universidad Industrial de Santander behind mRISCV, a 32-bit RISC-V microcontroller designed as the first Colombian system-on-chip.
 - [RISC-V MCU grown in Colombia](https://www.eenewseurope.com/en/risc-v-mcu-grown-in-colombia/) - eeNews Europe article on the Onchip team and the funding behind mRISCV.
 
 ### China

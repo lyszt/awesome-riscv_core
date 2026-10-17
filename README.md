@@ -483,6 +483,6 @@ This list started from the following lists, whose entries were merged, checked a
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+This list is licensed under [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Copies and adaptations must credit [Awesome RISC-V](https://github.com/lyszt/awesome-riscv_core) and be released under the same license.

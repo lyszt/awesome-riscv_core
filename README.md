@@ -80,7 +80,6 @@ Read this list on lyszt.net in your language.
 
 ### Books
 
-- [RISC-V ISA Specification Manual](https://github.com/riscv/riscv-isa-manual) - The official, open-source RISC-V Instruction Set Manual (Volumes I & II); the definitive reference for the unprivileged and privileged ISA.
 - [Digital Design with Chisel](https://github.com/schoeberl/chisel-book) - Open-source textbook on hardware design using Chisel, with free PDF available.
 - [RISC-V Assembly Language Programming](https://github.com/johnwinans/rvalp) - Free, open-source textbook (with PDF releases) covering RV32I assembly from first principles; actively maintained by John Winans.
 
@@ -252,7 +251,6 @@ Read this list on lyszt.net in your language.
 - [DarkRISCV](https://github.com/darklife/darkriscv) - Experimental RISC-V implementation in Verilog, fitting in a small FPGA.
 - [NEORV32](https://github.com/stnolting/neorv32) - Customizable, extensible MCU-class 32-bit soft-core CPU and SoC written in VHDL.
 - [BOOM](https://github.com/riscv-boom/riscv-boom) - Berkeley Out-of-Order RISC-V Processor.
-- [GitHub](https://github.com/riscv-boom/riscv-boom)
 - [Ibex](https://github.com/lowRISC/ibex) - Small, 32-bit RISC-V core from lowRISC, formally verified and production-proven.
 - [SERV](https://github.com/olofk/serv) - Award-winning ultra-compact bit-serial RISC-V core.
 - [NutShell](https://github.com/OSCPU/NutShell) - RISC-V processor developed by the University of Chinese Academy of Sciences.
@@ -285,14 +283,12 @@ Read this list on lyszt.net in your language.
 - [CV32E40P](https://github.com/openhwgroup/cv32e40p) - OpenHW Group CORE-V CV32E40P RISC-V IP.
 - [CVA6](https://github.com/openhwgroup/cva6) - 6-stage, single-issue in-order RISC-V core maintained by the OpenHW Group.
 - [FWRISC](https://github.com/mballance/fwrisc) - Featherweight RISC-V implementation.
-- [GitHub](https://github.com/freechipsproject/rocket-chip)
-- [GitHub](https://github.com/pulp-platform/riscv)
-- [GitHub](https://github.com/pulp-platform/zero-riscy)
+- [RI5CY](https://github.com/pulp-platform/riscv) - 4-stage RV32 core from PULP and the predecessor of the OpenHW CV32E40P.
+- [Zero-riscy](https://github.com/pulp-platform/zero-riscy) - Small 2-stage RV32 core from PULP and the predecessor of Ibex.
 - [Minerva](https://github.com/lambdaconcept/minerva) - 32-bit RISC-V soft processor.
 - [NaxRiscv](https://github.com/SpinalHDL/NaxRiscv) - Written in Scala and SpinalHDL, implements rv32/64imasu, OOO, superscalar, register renaming pipeline, targets FPGA, MIT license.
 - [PicoRV32](https://github.com/cliffordwolf/picorv32) - Size-Optimized RISC-V CPU.
 - [RV01](https://opencores.org/projects/rv01_riscv_core) - Pipelined RV32I implementation on OpenCores targeting FPGAs.
-- [Sail RISC-V](https://github.com/rems-project/sail-riscv) - RISCV Sail Model.
 - [Shakti C-Class](https://gitlab.com/shaktiproject/cores/c-class) - Application-class 64-bit RISC-V core from IIT Madras.
 - [Shakti E-Class](https://gitlab.com/shaktiproject/cores/e-class) - Embedded-class 32-bit RISC-V core from IIT Madras.
 - [Steel](https://github.com/rafaelcalcada/steel-core) - Simple, 32-bit RISC-V processor core designed to be easily embedded into SoCs.
@@ -301,13 +297,12 @@ Read this list on lyszt.net in your language.
 - [SweRV EL2](https://github.com/chipsalliance/Cores-SweRV-EL2) - EL2 SweRV RISC-V CoreTM 1.2 from Western Digital.
 - [Taiga](https://gitlab.com/sfu-rcl/Taiga) - 32-bit RISC-V processor designed for Xilinx FPGAs, targeting high performance.
 - [Wally (CVW)](https://github.com/openhwgroup/cvw) - CORE-V Wally: a configurable, 5-stage-pipeline RISC-V processor associated with the *RISC-V System-on-Chip Design* textbook by Harris et al.
-- [Website](http://shakti.org.in/)
-- [Website](http://csg.csail.mit.edu/riscy-e/)
+- [Riscy Expedition](http://csg.csail.mit.edu/riscy-e/) - MIT CSAIL project building RISC-V processors in Bluespec, including the out-of-order RiscyOO.
 - [PicoRV32@YosysHQ](https://github.com/YosysHQ/picorv32) - Written in Verilog, implements rv32{i,e}[m][c], targets FPGA and ASIC, ISC license. *(archived)*
 - [E203](https://github.com/SI-RISCV/e200_opensource) - Hummingbird E203 Opensource Processor Core. *(archived)*
 - [biRISC-V](https://github.com/ultraembedded/biriscv) - 32-bit dual-issue in-order RISC-V CPU. *(inactive since 2021)*
 - [Freedom](https://github.com/sifive/freedom) - By SiFive for its Freedom E300 and U500 platforms. *(archived)*
-- [GitHub](https://github.com/westerndigitalcorporation/swerv_eh1) *(archived)*
+- [SweRV EH1 (Western Digital)](https://github.com/westerndigitalcorporation/swerv_eh1) - Original Western Digital repository of the SweRV EH1 core. *(archived)*
 - [riscv-mini](https://github.com/ucb-bar/riscv-mini) - Simple three-stage RISC-V pipeline written in Chisel. *(archived)*
 - [SSRV](https://github.com/risclite/SuperScalar-RISCV-CPU) - SuperScalar-RISCV-CPU. *(inactive since 2020)*
 - [snitch@pulp](https://github.com/pulp-platform/snitch) - Written in SystemVerilog, implements rv32{i,e}, 1 stage pipeline, Apache-2.0 license. *(archived)*

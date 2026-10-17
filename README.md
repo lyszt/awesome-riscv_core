@@ -37,6 +37,8 @@ Read this list on lyszt.net in your language.
   - [Microcontrollers](#microcontrollers)
 - [By country](#by-country)
   - [Brazil](#brazil)
+  - [Chile](#chile)
+  - [Colombia](#colombia)
   - [China](#china)
   - [Europe](#europe)
   - [India](#india)
@@ -388,10 +390,22 @@ Read this list on lyszt.net in your language.
 ### Brazil
 
 - [Chips and processors in Brazil](https://lyszt.net/en/academia/resources/riscv/learn/brazil) - Lesson on the history of Brazilian chip manufacturing, the CEITEC factory and Brazilian RISC-V processors, with sources.
-- [BlueMacaw](https://sites.google.com/inf.ufsm.br/bluemacaw) - Brazilian 32-bit RISC-V microcontroller with Bluetooth Low Energy, led by UFSM with researchers from UFMG.
+- [BlueMacaw](https://sites.google.com/inf.ufsm.br/bluemacaw) - Brazilian 32-bit RISC-V microcontroller with Bluetooth Low Energy for IoT, also called u32BR, designed by UFCG, UFPR, UFSM, UnB and UFMG with federal funding.
+- [First u32BR prototypes](https://dcc.ufmg.br/primeiros-prototipos-de-microcontrolador-brasileiro-chegam-ao-dcc-ufmg-e-avancam-projeto-de-tecnologia-nacional/) - UFMG report on the first fabricated BlueMacaw chips, in Portuguese.
+- [Desenvolvimento de Software para o u32BR](https://www.youtube.com/watch?v=_qHZDYHu4hA) - Talk by Fernando Pereira of the UFMG Compilers Lab on the u32BR software development kit, in Portuguese.
 - [NoX](https://github.com/aignacio/nox) - Compact open source RISC-V processor for multi-processor systems-on-chip, from Brazilian researchers.
 - [CI Inovador](https://ciinovador.softex.br/) - Brazilian national program that trains chip designers through residencies in microelectronics.
+- [Brazil and Europe RISC-V HPC project](https://www.eldorado.org.br/en/noticia/brazil-and-europe-sign-innovative-project-whit-risc-v-technology-for-hpc/) - Instituto Eldorado announcement of a joint project on RISC-V for high-performance computing.
 - [Soccer, chips, RISC-V and Brazil](https://riscv.org/blog/soccer-chips-risc-v-and-brazil/) - RISC-V International article on the RISC-V community in Brazil.
+
+### Chile
+
+- [Chile's first steps with RISC-V](https://riscv.org/blog/chiles-first-steps-with-risc-v-paving-the-way-for-technological-innovation/) - RISC-V International article on the first Chilean RISC-V tapeout, an RV32I core from Universidad Técnica Federico Santa María built with the open SKY130 process.
+
+### Colombia
+
+- [mRISCV](https://github.com/onchipuis/mriscv) - 32-bit RISC-V microcontroller from the Onchip group at Universidad Industrial de Santander, designed as the first Colombian system-on-chip. *(inactive since 2018)*
+- [RISC-V MCU grown in Colombia](https://www.eenewseurope.com/en/risc-v-mcu-grown-in-colombia/) - eeNews Europe article on the Onchip team and the funding behind mRISCV.
 
 ### China
 

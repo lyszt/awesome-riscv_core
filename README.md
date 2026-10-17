@@ -49,6 +49,7 @@ Read this list on lyszt.net in your language.
 
 ### Tutorials
 
+- [Lux RISC-V lessons](https://lyszt.net/en/academia/resources/riscv/learn/intro) - Beginner RISC-V assembly lessons with interactive figures, translated into several languages and runnable in the Lux simulator.
 - [CHISEL Bootcamp](https://github.com/freechipsproject/chisel-bootcamp) - Interactive Jupyter-notebook-based bootcamp for learning Chisel hardware design.
 - [How I built a RISC-V CPU Core in a span of 5 days](https://github.com/iamrk-vlsi/RISC-V-MYTH-Workshop) - Workshop repository documenting a hands-on RISC-V TL-Verilog CPU build in five days.
 - [Advanced Examples of Using Chisel](https://github.com/librecores/riscv-sodor/wiki/Advanced-Examples-of-Using-Chisel) - Wiki page with advanced Chisel hardware design examples using the Sodor RISC-V cores.
@@ -64,6 +65,7 @@ Read this list on lyszt.net in your language.
 
 ### Documentation
 
+- [Lux RISC-V instruction reference](https://lyszt.net/en/academia/resources/riscv) - RV32IM instruction reference with encoding formats, examples and pseudo-instruction expansions.
 - [RISCV-FS](https://github.com/mrLSD/riscv-fs) - RISC-V formal ISA Specification.
 - [CHISEL Cheatsheet](https://github.com/freechipsproject/chisel-cheatsheet) - Quick-reference cheatsheet for the Chisel hardware design language.
 - [Chipyard Docs](https://chipyard.readthedocs.io/en/latest/) - Official documentation for the Chipyard SoC design framework.
@@ -144,6 +146,7 @@ Read this list on lyszt.net in your language.
 
 ### Simulators and emulators
 
+- [Litessera Lux](https://lyszt.net/en/toolkit/litessera-lux) - Browser-based RV32IM assembler and simulator with lessons and an instruction reference.
 - [QEMU](https://github.com/qemu/qemu) - The leading open-source machine emulator and virtualizer; supports both RV32 and RV64 system and user-mode emulation.
 - [Verilator](https://github.com/verilator/verilator) - Fastest Verilog/SystemVerilog simulator.
 - [Ripes](https://github.com/mortbopet/Ripes) - Visual computer architecture simulator and assembly code editor.
@@ -156,7 +159,6 @@ Read this list on lyszt.net in your language.
 - [WebRISC-V](https://github.com/Mariotti94/WebRISC-V) - Web-based graphical pipelined datapath simulation environment built for the RISC-V.
 - [FireSim-NVDLA](https://github.com/CSL-KU/firesim-nvdla) - Full-system simulator integrated with NVIDIA Deep Learning Accelerator (NVDLA).
 - [GAP8 SDK](https://github.com/GreenWaves-Technologies/gap_sdk) - SDK for the GAP8 RISC-V multi-core IoT application processor by GreenWaves Technologies.
-- [Litessera Lux](https://lyszt.net/en/toolkit/litessera-lux) - Browser-based RV32IM assembler and simulator with lessons and an instruction reference.
 - [riscv-ovpsim](https://github.com/riscv/riscv-ovpsim) - Imperas instruction set simulator used as a free reference model of the RISC-V specification.
 - [riscv-VM](https://github.com/openhwgroup/riscv_vm) - OpenHW Group's RISC-V Virtual Machine.
 - [Shakti SDK](https://gitlab.com/shaktiproject/software/shakti-sdk) - Software development kit for the Shakti RISC-V processor family from IIT Madras.
